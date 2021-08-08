@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+
+    <include
+        android:id="@+id/toolbarx"
+        layout="@layout/barlayout"/>
+
+    <com.scwang.wave.MultiWaveHeader
+        android:id="@+id/wave"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@id/toolbarx"
+        app:mwhVelocity="10"
+        app:mwhProgress="1"
+        app:mwhStartColor="#7FB000"
+        app:mwhCloseColor="#7FB000"/>
+
+
+
+    <TextView
+        android:id="@+id/taguser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:layout_below="@id/wave"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poplight"
+        android:text="Username"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:hint="Enter Username"
+        android:textSize="20dp"
+        android:layout_below="@+id/taguser"
+        android:fontFamily="@font/popsemibol"/>
+
+    <TextView
+        android:id="@+id/tagemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:layout_below="@id/username"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poplight"
+        android:text="Email Address"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:hint="Enter Email Address"
+        android:textSize="20dp"
+        android:layout_below="@+id/tagemail"
+        android:fontFamily="@font/popsemibol"/>
+    <TextView
+        android:id="@+id/tagpass"
+        android:layout_below="@id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:fontFamily="@font/poplight"
+        android:textSize="15dp"
+        android:text="Password"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_below="@+id/tagpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:hint="Enter Password"
+        android:fontFamily="@font/popsemibol"/>
+
+    <Button
+        android:id="@+id/regis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:layout_below="@id/pass"
+        android:fontFamily="@font/popmed"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:background="@drawable/backbutton"/>
+
+</RelativeLayout>

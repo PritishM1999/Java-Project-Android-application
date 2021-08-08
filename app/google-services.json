@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "834427114414",
+    "firebase_url": "https://transformer-bca6d.firebaseio.com",
+    "project_id": "transformer-bca6d",
+    "storage_bucket": "transformer-bca6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834427114414:android:44ecf8fc7bf9753203ae3f",
+        "android_client_info": {
+          "package_name": "com.example.drag.transformer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834427114414-41lvc57rcvr298tm0vie2hsk3sk5g85i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drag.transformer",
+            "certificate_hash": "013c6962a1a1293d46bd8cd5e7aba12ec764a545"
+          }
+        },
+        {
+          "client_id": "834427114414-v1284dfqdkia1s0bg2nvc3sg9f8dgj8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzPOFC_TvXwDYl2noL7XidUR3_fHqBBqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834427114414-v1284dfqdkia1s0bg2nvc3sg9f8dgj8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

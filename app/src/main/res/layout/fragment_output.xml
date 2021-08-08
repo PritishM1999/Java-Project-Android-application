@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.Output"
+    android:background="#41ffa09e">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.scwang.wave.MultiWaveHeader
+            android:id="@+id/wave"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            app:mwhVelocity="10"
+            app:mwhProgress="1"
+            app:mwhStartColor="#ff2c29"
+            app:mwhCloseColor="#ff2c29"/>
+
+
+        <TextView
+            android:id="@+id/ov1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wave"
+            android:text="Output Voltage"
+            android:fontFamily="@font/proximanovabold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="40dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/ovoltage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ov1"
+            android:text="00 V"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/proximanovaregular"/>
+        <TextView
+            android:id="@+id/oc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ovoltage"
+            android:text="Output Current"
+            android:fontFamily="@font/proximanovabold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="40dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/ocurrent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/oc1"
+            android:text="00 Amp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/proximanovaregular"/>
+        <TextView
+            android:id="@+id/op1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ocurrent"
+            android:text="Output Power"
+            android:fontFamily="@font/proximanovabold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="40dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/opower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/op1"
+            android:text="00 Watt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/proximanovaregular"/>
+    </RelativeLayout>
+
+    
+</FrameLayout>
